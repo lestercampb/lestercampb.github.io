@@ -1,0 +1,57 @@
+.jumbotron {
+    background: url('../assets/fallLeaves.jpg') ;
+    background-size: cover;
+    color: white;
+    background-position-y: -100px;
+
+}
+
+.display-4 {
+
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.lead {
+   
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* ADDING LINES BETWEEN SECTIONS */
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3em;
+    color: var(--green);
+
+}
+/*
+.separator::before{
+    margin: 2em;
+    height: 1px;
+    color: #7a41b3;
+    background: -webkit-gradient(linear, 0 0, 90% 0, from(#d1dfe3), to(#f1f3f5), color-stop(0%, #d1bfe3));
+}
+
+.separator::before{
+    content: '';
+    flex: -1;
+}
+*/
+
+
+.separator::after {
+    content: '';
+    flex: 1;
+}
+
+.separator::after {
+    margin: 2em;
+    height: 1px;
+    color: #8E9387;
+  
+  background: -webkit-gradient(linear, 0 0, 90% 0, from(#8E9387), to(#f1f3f5), color-stop(0%, #8E9387));
+}
+

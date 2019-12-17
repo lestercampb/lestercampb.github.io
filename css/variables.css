@@ -1,0 +1,14 @@
+:root {
+    
+    --darkbrown: #483751;
+    --darkbrown2: #643954;
+    --lightbrown: #A2747B;
+    --tan: #C38D6F;
+    --green: #8E9387;
+    --font-one:
+}
+
+@font-face {
+    font-family: toothless;
+    src: url(../assets/)
+}
