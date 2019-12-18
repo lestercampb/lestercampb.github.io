@@ -1,5 +1,7 @@
 #contact {
     background: var(--grey);
+    padding-top: 1%;
+    padding-bottom: 5%;
 }
 
 .text-center button {

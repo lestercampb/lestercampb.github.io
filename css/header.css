@@ -3,7 +3,12 @@
     background-size: cover;
     color: white;
     background-position-y: -100px;
+    
 
+}
+
+#home{
+    padding-top: 4.5%;
 }
 
 .display-4 {
@@ -23,23 +28,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 3em;
+    margin: 2em;
     color: var(--green);
 
 }
-/*
-.separator::before{
-    margin: 2em;
-    height: 1px;
-    color: #7a41b3;
-    background: -webkit-gradient(linear, 0 0, 90% 0, from(#d1dfe3), to(#f1f3f5), color-stop(0%, #d1bfe3));
-}
 
-.separator::before{
-    content: '';
-    flex: -1;
-}
-*/
 
 
 .separator::after {

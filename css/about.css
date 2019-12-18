@@ -1,0 +1,34 @@
+/*.aboutText {
+    float: right;
+   
+    margin: 1%;
+ 
+}*/
+
+
+#about{
+    padding-top: 1%;
+    
+}
+
+#about-img{
+    /* position: relative; */
+    width: 30%;
+    float: left;
+    padding: 2%;
+}
+
+#about-text{
+    /* position: relative; */
+    /* float: right; */
+    width: 100%;
+    margin: 1%;
+}
+
+
+.aboutContainer {   
+    display: -webkit-flex; 
+    -webkit-flex-wrap: wrap; 
+    display: flex;  
+    flex-wrap: wrap;
+  }
